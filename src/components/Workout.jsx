@@ -1,5 +1,7 @@
 import React from 'react'
 import Bench from '../assets/bench.jpg'
+import Curl from '../assets/curl.jpg'
+import Raise from '../assets/raise.jpg'
 
 const Workout = () => {
   return (
@@ -21,6 +23,34 @@ const Workout = () => {
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>4) </span>3 sets of 4-6 reps of <a href="https://www.youtube.com/watch?v=4Y2ZdHCOXok" target='_' className='text-[#1d4aa8]'>Barbell Bench Press</a></li>
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>5) </span>3 sets of 4-6 reps of <a href="https://www.youtube.com/watch?v=OR6WM5Z2Hqs" target='_' className='text-[#1d4aa8]'>Decline Barbell Bench Press</a></li>
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>6) </span>3 sets of 8 reps of <a href="https://www.youtube.com/watch?v=dX_nSOOJIsE" target='_' className='text-[#1d4aa8]'>Chest Dips</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p className='text-3xl border-b-2'>Arms</p>
+                <div className='my-[10px] flex flex-col items-center'>
+                    <img src={Curl} alt="Bench press" className='w-[600px] mx-auto'/>
+                    <ul className='my-[10px] center'>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>1) </span>4 sets of 10 reps of <a href="https://www.youtube.com/watch?v=av7-8igSXTs" target="_" className='text-[#1d4aa8]'>Standing Dumbbell Curl</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>2) </span>4 sets of 12 reps of <a href="https://www.youtube.com/watch?v=0AUGkch3tzc" target="_"className='text-[#1d4aa8]'>Dumbbell Concentration Curl</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>3) </span>4 sets of 10 reps of <a href="https://www.youtube.com/watch?v=XZ4uBdekQqA" target='_' className='text-[#1d4aa8]'>Straight Bar Curls</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>4) </span>4 sets of 10 reps of <a href="https://www.youtube.com/watch?v=6MwtkyNC2ZY" target='_' className='text-[#1d4aa8]'>Tricep Dips</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>5) </span>5 sets of 15 reps of <a href="https://www.youtube.com/watch?v=8WL0m0vLAPo" target='_' className='text-[#1d4aa8]'>Tricep Cable Pushdown</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>6) </span>5 sets of 15 reps of <a href="https://www.youtube.com/watch?v=ns-RGsbzqok" target='_' className='text-[#1d4aa8]'>Tricep Extension</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p className='text-3xl border-b-2'>Shoulders</p>
+                <div className='my-[10px] flex flex-col items-center'>
+                    <img src={Raise} alt="Bench press" className='w-[600px] mx-auto'/>
+                    <ul className='my-[10px] center'>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>1) </span>3 sets of 8-10 reps of <a href="https://www.youtube.com/watch?v=qEwKCR5JCog" target="_" className='text-[#1d4aa8]'>Shoulder Press</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>2) </span>3 sets of 10-12 reps of <a href="https://www.youtube.com/watch?v=kDqklk1ZESo" target="_"className='text-[#1d4aa8]'>Lateral Raises</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>3) </span>3 sets of 10-12 reps of <a href="https://www.youtube.com/watch?v=vJ8x0Oz06gw" target='_' className='text-[#1d4aa8]'>Upright Row</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>4) </span>3 sets of 12-15 reps of <a href="https://www.youtube.com/watch?v=qz1OLup4W_M" target='_' className='text-[#1d4aa8]'>Rear Delt Cable Raise</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>5) </span>3 sets of 10-12 reps of <a href="https://www.youtube.com/watch?v=hRJ6tR5-if0" target='_' className='text-[#1d4aa8]'>Front Raise</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>6) </span>3 sets of 12-15 reps of <a href="https://www.youtube.com/watch?v=cJRVVxmytaM" target='_' className='text-[#1d4aa8]'>Dumbbell Shrug</a></li>
                     </ul>
                 </div>
             </div>
