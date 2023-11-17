@@ -54,6 +54,20 @@ const Workout = () => {
                     </ul>
                 </div>
             </div>
+            <div>
+                <p className='text-3xl border-b-2'>Back</p>
+                <div className='my-[10px] flex flex-col items-center'>
+                    <img src={Raise} alt="Bench press" className='w-[600px] mx-auto'/>
+                    <ul className='my-[10px] center'>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>1) </span>3 sets of 12 reps of <a href="https://www.youtube.com/watch?v=lueEJGjTuPQ" target="_" className='text-[#1d4aa8]'>Wide Grip Lat Pulldown</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>2) </span>3 sets of 8 reps of <a href="https://www.youtube.com/watch?v=IjoFCmLX7z0" target="_"className='text-[#1d4aa8]'>Close Grip Lat Pulldown</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>3) </span>3 sets of 12 reps of <a href="https://www.youtube.com/watch?v=9xGqgGFAtiM" target='_' className='text-[#1d4aa8]'>Barbell Shrugs</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>4) </span>3 sets of 8 reps of <a href="https://www.youtube.com/watch?v=CN_7cz3P-1U" target='_' className='text-[#1d4aa8]'>Stiff Legged Barbell Deadlifts</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>5) </span>3 sets of 8 reps of <a href="https://www.youtube.com/watch?v=ph3pddpKzzw" target='_' className='text-[#1d4aa8]'>Back Extensions</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>6) </span>3 sets of 12 reps of <a href="https://www.youtube.com/watch?v=9xGqgGFAtiM" target='_' className='text-[#1d4aa8]'>Barbell Shrugs</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>        
     </div>
 
