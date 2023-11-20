@@ -4,6 +4,7 @@ import Curl from '../assets/curl.jpg'
 import Raise from '../assets/raise.jpg'
 import Situp from '../assets/sit up.jpg'
 import Deadlift from '../assets/deadlift.jpg'
+import Squat from '../assets/squat.jpg'
 
 const Workout = () => {
   return (
@@ -80,6 +81,19 @@ const Workout = () => {
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>3) </span>3 sets of 20 reps of <a href="https://www.youtube.com/watch?v=9C9sbJfFjJM" target='_' className='text-[#1d4aa8]'>Side Bridges</a></li>
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>4) </span>3 sets of 20 reps of <a href="https://www.youtube.com/watch?v=jDwoBqPH0jk" target='_' className='text-[#1d4aa8]'>Sit Ups</a></li>
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>5) </span>3 sets of 20 reps of <a href="https://www.youtube.com/watch?v=5ER5Of4MOPI" target='_' className='text-[#1d4aa8]'>Crunches</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p className='text-3xl border-b-2'>Legs</p>
+                <div className='my-[10px] flex flex-col items-center'>
+                    <img src={Squat} alt="Bench press" className='w-[600px] mx-auto'/>
+                    <ul className='my-[10px] center'>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>1) </span>4 sets of 10 reps of <a href="https://www.youtube.com/watch?v=eFYv8Skf66g" target="_" className='text-[#1d4aa8]'>Barbell Squats</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>2) </span>4 sets of 10 reps of <a href="https://www.youtube.com/watch?v=9gglI77Kzq8" target="_"className='text-[#1d4aa8]'>Dumbbell Lunges</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>3) </span>4 sets of 10 reps of <a href="https://www.youtube.com/watch?v=rvqLVxYqEvo" target='_' className='text-[#1d4aa8]'>Side Lunges</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>4) </span>3 sets of 20 reps of <a href="https://www.youtube.com/watch?v=c5Kv6-fnTj8" target='_' className='text-[#1d4aa8]'>Calf Raises</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>5) </span>4 sets of 10 reps of <a href="https://www.youtube.com/watch?v=DGavj41F_Cs" target='_' className='text-[#1d4aa8]'>Single Leg Straight Leg Dead Lifts</a></li>
                     </ul>
                 </div>
             </div>

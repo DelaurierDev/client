@@ -4,7 +4,7 @@ import Logo from '../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <div className='flex w-full h-[80px] justify-between items-center px-[10px]'>
+    <div className='flex w-full h-[80px] justify-between items-center px-[10px] bg-white'>
         <div>
             <img src={Logo} alt="PowerThreads logo" />
         </div>
