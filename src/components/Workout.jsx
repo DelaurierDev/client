@@ -2,6 +2,8 @@ import React from 'react'
 import Bench from '../assets/bench.jpg'
 import Curl from '../assets/curl.jpg'
 import Raise from '../assets/raise.jpg'
+import Situp from '../assets/sit up.jpg'
+import Deadlift from '../assets/deadlift.jpg'
 
 const Workout = () => {
   return (
@@ -57,7 +59,7 @@ const Workout = () => {
             <div>
                 <p className='text-3xl border-b-2'>Back</p>
                 <div className='my-[10px] flex flex-col items-center'>
-                    <img src={Raise} alt="Bench press" className='w-[600px] mx-auto'/>
+                    <img src={Deadlift} alt="Bench press" className='w-[600px] mx-auto'/>
                     <ul className='my-[10px] center'>
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>1) </span>3 sets of 12 reps of <a href="https://www.youtube.com/watch?v=lueEJGjTuPQ" target="_" className='text-[#1d4aa8]'>Wide Grip Lat Pulldown</a></li>
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>2) </span>3 sets of 8 reps of <a href="https://www.youtube.com/watch?v=IjoFCmLX7z0" target="_"className='text-[#1d4aa8]'>Close Grip Lat Pulldown</a></li>
@@ -65,6 +67,19 @@ const Workout = () => {
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>4) </span>3 sets of 8 reps of <a href="https://www.youtube.com/watch?v=CN_7cz3P-1U" target='_' className='text-[#1d4aa8]'>Stiff Legged Barbell Deadlifts</a></li>
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>5) </span>3 sets of 8 reps of <a href="https://www.youtube.com/watch?v=ph3pddpKzzw" target='_' className='text-[#1d4aa8]'>Back Extensions</a></li>
                         <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>6) </span>3 sets of 12 reps of <a href="https://www.youtube.com/watch?v=9xGqgGFAtiM" target='_' className='text-[#1d4aa8]'>Barbell Shrugs</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p className='text-3xl border-b-2'>Core</p>
+                <div className='my-[10px] flex flex-col items-center'>
+                    <img src={Situp} alt="Bench press" className='w-[600px] mx-auto'/>
+                    <ul className='my-[10px] center'>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>1) </span>3 sets of 20 reps of <a href="https://www.youtube.com/watch?v=XyuWESsqXzg" target="_" className='text-[#1d4aa8]'>Plank Crunches</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>2) </span>3 sets of 20 reps of <a href="https://www.youtube.com/watch?v=3WAcs5qsSKQ" target="_"className='text-[#1d4aa8]'>Body Saw</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>3) </span>3 sets of 20 reps of <a href="https://www.youtube.com/watch?v=9C9sbJfFjJM" target='_' className='text-[#1d4aa8]'>Side Bridges</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>4) </span>3 sets of 20 reps of <a href="https://www.youtube.com/watch?v=jDwoBqPH0jk" target='_' className='text-[#1d4aa8]'>Sit Ups</a></li>
+                        <li className='text-xl my-7'><span className='text-[#1d4aa8] text-xl'>5) </span>3 sets of 20 reps of <a href="https://www.youtube.com/watch?v=5ER5Of4MOPI" target='_' className='text-[#1d4aa8]'>Crunches</a></li>
                     </ul>
                 </div>
             </div>
