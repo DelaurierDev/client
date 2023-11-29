@@ -3,10 +3,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='border-t-2 py-5 px-auto'>
-      <div className='w-full flex space-between'>
-        <p>Copyright information that i havent yet made yet</p>
+      <div className=' w-[50%] mx-auto flex items-center justify-center'>
+        <p>Copyright 2023 All Rights Reserved PowerThreads Co.</p>
 
-            <p>other Links hjajhajajja</p>
+
         
       </div>
 

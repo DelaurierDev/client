@@ -8,10 +8,24 @@ const Shop = () => {
 
         <p className='text-7xl border-b-2 w-[180px] align-middle'>Shop</p>
 
-        <div className='flex justify-around'>
-          <Item title = "Cool bag" price = "23.99" description = ""/>
-          <Item title = "Cool shoes" price = "28.99" description = ""/>
-          <Item title = "Cool dog" price = "0.99" description = ""/>          
+        <div className='flex space-around'>
+          <div >
+            <Item title = "Cool bag" price = "23.99" description = ""/>
+            <Item title = "Cool shoes" price = "28.99" description = ""/>
+
+          </div>
+          <div>
+            <Item title = "Cool bag" price = "23.99" description = ""/>
+            <Item title = "Cool shoes" price = "28.99" description = ""/>
+
+          </div>
+          <div>
+            <Item title = "Cool bag" price = "23.99" description = ""/>
+            <Item title = "Cool shoes" price = "28.99" description = ""/>
+
+          </div>
+         
+         
         </div>
 
   
